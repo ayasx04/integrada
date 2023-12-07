@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: rgba(219, 196, 255, 0.384);
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Cabeçalho */
+
+header{
+    padding: 30px 4%;
+    background-color: #9552ff;
+}
+
+header .interface{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #2f2f2f;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.10);
+}
+
+header nav.menu-pc ul{
+    list-style-type: none;
+}
+
+header nav.menu-pc ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+header .interface .logo{
+    cursor: pointer;
+}
+
+/* Topo*/
+section.inicio{
+    padding: 40px 4%;
+}
+
+section.inicio .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.inicio .txt-inicio h1{
+    color:#000000;
+    font-size: 60px;
+    line-height: 40px;
+}
+
+.inicio .txt-inicio h1 > span{
+    color: #9552ff;
+}
+
+.inicio .txt-inicio p{
+    color: #000000;
+    font-size: 20px;
+    margin: 40px 0;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.inicio .img-inicio img{
+    position: relative;
+    border-radius: 5%;
+}
+
+/* Sobre */
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sobre .txt-sobre h2{
+    color:#000000;
+    font-size: 60px;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre h2 > span{
+    color: #9552ff;
+}
+
+.sobre .txt-sobre p{
+    margin: 30px 0;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.btn button{
+    text-align: center  ;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #9B5FFF;
+    border: 0;
+    border-radius: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn button:hover{
+    box-shadow: 0px 0px 10px #9552ff;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.sobre .img-sobre img{
+    position: relative;
+    border-radius: 30%;
+}
+
+/* Rodapé */
+footer{
+    padding: 40px 4%;
+    margin-top: 40px;
+    background-color: #9552ff;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+footer .linha-footer p i{
+    color: #fff;
+    font-size: 25px;
+}
+
+footer .linha-footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- */
+
+.materia{
+    padding: 20px 4%;
+}
+
+.txt-materia h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #9552ff;
+}
+
+.txt-materia p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.btn-link button{
+    text-align: center  ;
+    width: 300px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #9B5FFF;
+    border: 0;
+    border-radius: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-link button:hover{
+    box-shadow: 0px 0px 10px #9552ff;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+section.fil1{
+    display: flex;
+}
+
+section.fil2{
+    display: flex;
+}
+
+
+.tech{
+    padding: 20px 4%;
+}
+
+.txt-tech h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #9552ff;
+}
+
+.txt-tech p{
+    text-align: justify;
+    font-size: 20px;
+}
